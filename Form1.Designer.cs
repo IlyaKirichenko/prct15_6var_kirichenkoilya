@@ -40,6 +40,7 @@ namespace var6._1_kirichenkoilya
             this.listViewIndex = new System.Windows.Forms.ListView();
             this.Слово = new System.Windows.Forms.ColumnHeader();
             this.Страницы = new System.Windows.Forms.ColumnHeader();
+            this.EditItem = new System.Windows.Forms.Button();
             this.panelTop.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@ namespace var6._1_kirichenkoilya
             // 
             // panelTop
             // 
+            this.panelTop.Controls.Add(this.EditItem);
             this.panelTop.Controls.Add(this.label2);
             this.panelTop.Controls.Add(this.label1);
             this.panelTop.Controls.Add(this.btnAdd);
@@ -139,6 +141,16 @@ namespace var6._1_kirichenkoilya
             this.Страницы.Text = "Страницы";
             this.Страницы.Width = 350;
             // 
+            // EditItem
+            // 
+            this.EditItem.Location = new System.Drawing.Point(482, 67);
+            this.EditItem.Name = "EditItem";
+            this.EditItem.Size = new System.Drawing.Size(100, 30);
+            this.EditItem.TabIndex = 7;
+            this.EditItem.Text = "Редактировать";
+            this.EditItem.UseVisualStyleBackColor = true;
+            this.EditItem.Click += new System.EventHandler(this.EditItem_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -166,6 +178,7 @@ namespace var6._1_kirichenkoilya
         private System.Windows.Forms.ListView listViewIndex;
         private System.Windows.Forms.ColumnHeader Слово;
         private System.Windows.Forms.ColumnHeader Страницы;
+        private System.Windows.Forms.Button EditItem;
     }
 }
 
