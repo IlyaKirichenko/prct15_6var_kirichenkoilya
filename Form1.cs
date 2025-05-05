@@ -121,23 +121,7 @@ namespace var6._1_kirichenkoilya
             selectedWordForEdit = null;
             ClearFields();
             RefreshList();
-            /* if (listViewIndex.SelectedItems.Count == 0) return; 
 
-                 var selected = listViewIndex.SelectedItems[0]; 
-                 string oldWord = selected.Text;
-                 string newWord = txtWord.Text;
-                 string newPages = txtPage.Text;
-                 if (!string.IsNullOrEmpty(newWord) && !int.TryParse(newPages, out int newPage))
-                 {
-                     var pagesArray = new ArrayList();
-                     ukaz.Edit(oldWord, newWord, pagesArray);
-                     RefreshList(); 
-
-                 }
-                 else
-                 {
-                     MessageBox.Show("Неверный ввод данных");
-                 }*/
         }
         private void ClearFields()
         {
